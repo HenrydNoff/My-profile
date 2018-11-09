@@ -1,0 +1,78 @@
+/*Colors and fonts*/
+html
+
+body {
+	background-image: url("https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/4/7/3/47343047c5_105832_ciel-bleu-01.jpg");
+	background-attachment: fixed;
+	color:#000000;
+	font-size: 16px;
+	font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+	color: red;
+	font-family: monospace;
+	font-size: 53px;
+	font-weight: lighter;
+	margin: 8 35px;
+	text-align: center;
+}
+
+h2 {
+	color: #0400ff;
+	font-family: monospace;
+	font-size: 22px;
+	font-weight: bold;
+	background:#c1c1c1;
+	padding: 9px;
+	border-radius: 9px;
+}
+a {
+	text-decoration:none;
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	padding: 13px;
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+
+
+
+#logo {
+	border-radius: 100px;
+	margin: 0 160px;
+}
+#jango {
+    background: #0f0d79;
+    padding: 6px;
+    color: white;
+}
+#insta {
+	background:#bf0f0f;
+	padding: 6px;
+	color: white;
+}
+
+.Fut {
+	width: 110px;
+    padding: 39px;
+    float: left;
+    border-radius: 60px;
+	
+}
+
+
+
+
+
+
+
+
+
+
