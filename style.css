@@ -1,78 +1,108 @@
-/*Colors and fonts*/
-html
-
-body {
-	background-image: url("https://fr.cdn.v5.futura-sciences.com/buildsv6/images/wide1920/4/7/3/47343047c5_105832_ciel-bleu-01.jpg");
-	background-attachment: fixed;
-	color:#000000;
-	font-size: 16px;
-	font-family: 'Merriweather', serif;
-
+.banner {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(https://cdn.pixabay.com/photo/2017/02/10/15/57/full-moon-2055469__340.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: cover;
+  height: 500px;
+  padding: 100px 50px;
 }
 
-h1 {
-	color: red;
-	font-family: monospace;
-	font-size: 53px;
-	font-weight: lighter;
-	margin: 8 35px;
-	text-align: center;
-}
 
-h2 {
-	color: #0400ff;
-	font-family: monospace;
-	font-size: 22px;
+.banner-content {
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+  }
+
+.btn { 
 	font-weight: bold;
-	background:#c1c1c1;
-	padding: 9px;
-	border-radius: 9px;
-}
-a {
-	text-decoration:none;
-	font-family: 'Roboto', sans-serif;
-	color: red;
-	padding: 13px;
-	text-align: center;
-}
-
-a:hover {
-	text-decoration: none;
-	color: blue;
-	font-weight: bold;
-}
-
-
-
-#logo {
-	border-radius: 100px;
-	margin: 0 160px;
-}
-#jango {
-    background: #0f0d79;
-    padding: 6px;
-    color: white;
-}
-#insta {
-	background:#bf0f0f;
-	padding: 6px;
 	color: white;
+	text-align: center;
+	height: 50px;
+	background-color: #0e76a8;
+	padding: 10px 5px;
+	border-radius: 8%;
 }
 
-.Fut {
-	width: 110px;
-    padding: 39px;
-    float: left;
-    border-radius: 60px;
-	
+.cards {
+  padding: 50px 5px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-element {
+  width: 30%;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.cita { background: linear-gradient(135deg, rgba(0, 0, 25, 0.6) 0%, rgba(0, 0, 12, 0.6) 100%), url(https://cdn.pixabay.com/photo/2017/06/23/17/46/desert-2435404__340.jpg);
+	background-size: cover;
+	font-size: 30px;
+	text-align: center;
+  background-repeat: no-repeat;
+  width: cover;
+  height: auto;
+  padding: 50px 50px;
+  background-repeat: no-repeat;
+  
+}
+
+.pc {width: cover;
+	height: 250px;
+	padding: 50px 50px;
+	background:  linear-gradient(135deg, rgba(0, 0, 123, 0) 0%, rgba(0, 0, 100, 0) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  }
+.pccontent {
+	color: black;
+  text-align: left;
+  padding: 10px 3px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  line-height: 2em;
+  font-size: 17px;
+}
+
+.compet {background:  linear-gradient(135deg, rgba(0, 0, 123, 0) 0%, rgba(0, 0, 100, 0) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.competcontent {
+	color: black;
+  text-align: left;
+  padding: 10px 3px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  line-height: 2em;
+  font-size: 17px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 
-
-
-
-
-
-
-
-
+.passions {padding-right: 25px;
+  background:  linear-gradient(135deg, rgba(0, 0, 123, 0) 0%, rgba(0, 0, 100, 0) 100%);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.passionscontent {
+	color: ghostwhite;
+  text-align: center;
+  padding: 1px;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+  line-height: 2em;
+  font-size: 17px;
+  align-items: center;
+  justify-content: space-between;
+}
